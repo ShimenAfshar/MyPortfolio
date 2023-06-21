@@ -1,14 +1,29 @@
-import "./NabarStyle.css";
+import "./NavbarStyle.css";
 
 import React from 'react'
-import { link } from "react-router-dom";
+// eslint-disable-next-line no-unused-vars
+import { Link } from "react-router-dom";
 
 const Nabar = () => {
   return (
-    <div className="Header">
-      <link to="/">
+    <div className="header">
+      <Link to="/">
         <h1>Portfolio</h1>
-      </link>
+      </Link>
+      <ul className="nav-menu">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="Project">Project</Link>
+        </li>
+        <li>
+          <Link to="about">About</Link>
+        </li>
+        <li>
+          <Link to="contact">Contact</Link>
+        </li>
+      </ul>
     </div>
   )
 }
