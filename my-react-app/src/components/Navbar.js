@@ -24,6 +24,7 @@ const Nabar = () => {
           <Link to="contact">Contact</Link>
         </li>
       </ul>
+      
     </div>
   )
 }
