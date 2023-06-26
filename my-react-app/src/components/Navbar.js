@@ -3,6 +3,7 @@ import "./NavbarStyle.css";
 import React from 'react'
 // eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 
 const Nabar = () => {
   return (
@@ -24,7 +25,11 @@ const Nabar = () => {
           <Link to="contact">Contact</Link>
         </li>
       </ul>
-      
+      <div className="hamburger">
+        <FaBars size={20} style={{ color: "#fff" }}/>
+
+      </div>
+
     </div>
   )
 }
