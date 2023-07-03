@@ -1,11 +1,18 @@
 import "./NavbarStyle.css";
 
-import React from 'react'
+import React, { useState } from 'react'
 // eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Nabar = () => {
+
+ const [click, setClick] = useState(false);
+ // eslint-disable-next-line no-unused-vars
+ const handleClick = () => setClick(!click);
+
+
+
   return (
     <div className="header">
       <Link to="/">
@@ -26,7 +33,8 @@ const Nabar = () => {
         </li>
       </ul>
       <div className="hamburger">
-        <FaBars size={20} style={{ color: "#fff" }}/>
+        <FaTimes size={20} style={{ color: "#fff" }}/>
+        <FaBars size={20} style={{ color: "#fff" }} />
 
       </div>
 
