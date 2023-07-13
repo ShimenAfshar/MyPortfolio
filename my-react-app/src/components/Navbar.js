@@ -11,10 +11,22 @@ const Nabar = () => {
  // eslint-disable-next-line no-unused-vars
  const handleClick = () => setClick(!click);
 
+// eslint-disable-next-line no-unused-vars
+const [color, seColor] = useState(false);
+// eslint-disable-next-line no-unused-vars
+const changeColor = () =>{
+ if (window.scrollY >=1){
+   seColor(true);
+ }
+else{
+  seColor(false);
+}
+};
 
+window.addEventListener("scroll", changeColor);
 
   return (
-    <div className="header">
+    <div className={color ? "header header-bg": "header"}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
