@@ -15,7 +15,7 @@ const Nabar = () => {
 const [color, seColor] = useState(false);
 // eslint-disable-next-line no-unused-vars
 const changeColor = () =>{
- if (window.scrollY >=1){
+ if (window.scrollY >= 100) {
    seColor(true);
  }
 else{
