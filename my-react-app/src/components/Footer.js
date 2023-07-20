@@ -28,7 +28,25 @@ const Footer = () => {
                        Shimenafshar@gmail.com</h4>
                   </div>
          </div>
-         <div className="right"></div>
+         <div className="right">
+            <h4>About me </h4>
+                  <p>After gaining valuable experience in the beauty industry, I embarked on an exciting journey in the tech world, driven by a desire for fresh challenges</p>
+                  <div className="social">
+                      <FaCodeWars size={20} style={{
+                          color:
+                              "#fff", marginRight: "1rem"
+                      }} />
+                      <FaGithub size={20} style={{
+                          color:
+                              "#fff", marginRight: "1rem"
+                      }} />
+                      <FaLinkedin size={20} style={{
+                          color:
+                              "#fff", marginRight: "1rem"
+                      }} />
+
+                  </div>
+         </div>
         </div>
     </div>
   );
