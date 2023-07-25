@@ -1,8 +1,8 @@
 
 import "./FooterStyles.css";
 
-import React from 'react';
-import { FaHome, FaPhone, FaMailBulk, FaCodeWars, FaGithub, FaLinkedin} from "react-icons/fa";
+import React from "react";
+import { FaHome, FaPhone, FaMailBulk,FaGithub, FaLinkedin} from "react-icons/fa";
 
 
 const Footer = () => {
@@ -32,10 +32,10 @@ const Footer = () => {
             <h4>About me </h4>
                   <p>After gaining valuable experience in the beauty industry, I embarked on an exciting journey in the tech world, driven by a desire for fresh challenges</p>
                   <div className="social">
-                      <FaCodeWars size={20} style={{
+                      {/* <FaCodewars size={20} style={{
                           color:
                               "#fff", marginRight: "1rem"
-                      }} />
+                      }} /> */}
                       <FaGithub size={20} style={{
                           color:
                               "#fff", marginRight: "1rem"
