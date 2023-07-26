@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-undef */
-import React from 'react'
+import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroImg from '../components/HeroImg';
 import Footer from '../components/Footer';
@@ -11,7 +11,7 @@ const Home = () => {
       <HeroImg />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 export default Home;
