@@ -16,7 +16,10 @@ const WorkCard = () => {
                 <div className="pro-detailes">
                       <p>this is a text</p>
                       <div className="pro-btns">
-                        <NavLink to="url.com" className="btn">View</NavLink>
+                        <NavLink to="url.com"
+                         className="btn">
+                            View
+                            </NavLink>
                           <NavLink to="url.com" className="btn">Source</NavLink>
 
                       </div>
