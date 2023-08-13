@@ -32,6 +32,17 @@
     text-align: justify;
 }
 
+.pro-btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+
+.pro-btns .btn {
+    padding: 0.5rem 1rem;
+
+}
+
 
 @media  screen and (max-width: 740px) {
     .project-container {
