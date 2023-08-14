@@ -6,7 +6,7 @@ import pro3 from "../assets/hotel.jpg"
 const ProjectCardData = [
     {
         imgsrc: pro1,
-        title: "title of project",
-        text: "projects description"
+        title: "Attendance Tracker",
+        text: "Developed a class registration system to track attendance, ensuring accurate record-keeping and streamlined administrative processes."
     }
 ]
