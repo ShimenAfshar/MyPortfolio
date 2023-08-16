@@ -1,4 +1,6 @@
 import "./WorkCardStyles.css";
+import WorkCard from "./WorkCard";
+import WorkCardData from "./WorkCardData";
 
 import React from "react";
 
