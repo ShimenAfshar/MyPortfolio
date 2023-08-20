@@ -1,5 +1,4 @@
 
-
 import pro1 from "../assets/finalll.jpg";
 import pro2 from "../assets/mid.jpg";
 import pro3 from "../assets/hotel.jpg";

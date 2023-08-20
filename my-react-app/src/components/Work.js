@@ -4,9 +4,6 @@ import WorkCardData from "./WorkCardData";
 
 import React from "react";
 
-import pro1 from "../assets/finalll.jpg";
-import { NavLink } from "react-router-dom";
-
 const Work = () => {
     return (
         <div className="work-container">
@@ -25,7 +22,7 @@ const Work = () => {
                 }
                 )
 
-                }
+                };
               
 
             </div>
