@@ -26,12 +26,9 @@ const AboutContent = () => {
                   <div className="img-stack bottom">
                       <img src={React2}
                           className="img" alt="true" />
-
                   </div>
-
             </div>
         </div>
-      
     </div>
   )
 }
