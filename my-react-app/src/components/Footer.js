@@ -35,10 +35,7 @@ const Footer = () => {
                 <div className="right">
                     <h4>About me </h4>
                     <p>
-                        After gaining valuable experience in the beauty industry, I embarked
-                        on an exciting journey in the tech world, driven by a desire for
-                        fresh challenges
-                    </p>
+                        After gaining valuable experience in the beauty industry, I embarked on an exciting journey in the tech world, driven by a desire for fresh challenges. </p>
                     <div className="social">
                         {/* <FaCodewars size={20} style={{
                           color:
